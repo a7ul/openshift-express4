@@ -1,3 +1,8 @@
-The OpenShift `nodejs` cartridge documentation can be found at:
+# openshift-express4
 
-http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs
+An Example for using Express 4 with Openshift
+
+This is a blank template project.
+It is derived from express4 generator template project and openshift default project.
+
+Just clone the repo ! :)
