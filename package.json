@@ -9,8 +9,8 @@
     "openshift"
   ],
   "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
+    "name": "ATUL",
+    "email": "atulanand94@gmail.com",
     "url": "http://www.openshift.com/"
   },
   "homepage": "http://www.openshift.com/",
@@ -18,18 +18,20 @@
     "type": "git",
     "url": "https://github.com/openshift/origin-server"
   },
-
   "engines": {
     "node": ">= 0.6.0",
     "npm": ">= 1.0.0"
   },
-
   "dependencies": {
-    "express": "~3.4.4"
+    "body-parser": "^1.13.1",
+    "cookie-parser": "^1.3.5",
+    "debug": "^2.2.0",
+    "express": "^4.13.0",
+    "morgan": "^1.6.0",
+    "passport": "^0.2.2"
   },
   "devDependencies": {},
   "bundleDependencies": [],
-
   "private": true,
   "main": "server.js"
 }
